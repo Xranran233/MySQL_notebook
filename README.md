@@ -5,7 +5,7 @@
 DATEDIFF('2007-12-31','2007-12-30');   #  1
 DATEDIFF('2010-12-30','2010-12-31');   # -1
 ```
-2. TIMESTAMPDIFF
+2. TIMESTAMPDIFF(day/hour/second,time1,time2), 计算时间差
 ```
 #计算相差天数：
 select TIMESTAMPDIFF(DAY,'2019-05-20', '2019-05-21'); # 1
