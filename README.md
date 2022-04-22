@@ -16,3 +16,8 @@ select TIMESTAMPDIFF(HOUR, '2015-03-22 07:00:00', '2015-03-22 18:00:00'); # 11
 #计算相差秒数：
 select TIMESTAMPDIFF(SECOND, '2015-03-22 07:00:00', '2015-03-22 7:01:01'); # 61
 ```
+3. 从日期减去指定的时间间隔 DATE_SUB(), 将时间/日期间隔添加到日期 adddate()
+```
+DATE_SUB("2008-12-29",INTERVAL 2 DAY) # 2008-12-27
+adddate("2015-01-03",INTERVAL 1 day)  # 2015-01-04
+```
