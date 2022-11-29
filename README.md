@@ -35,6 +35,7 @@ TO_DAYS("2017-06-20")        #736865
 
 DATE_FORMAT(date,format) 函数用于将指定的日期格式化为给定的格式值，即将给出一个日期，该函数将该日期格式化为指定的格式参数。
 ![image](https://user-images.githubusercontent.com/79103918/204432760-1d6a174f-1b52-4cd2-9aab-7b354d811795.png)
+
 2. STR_TO_DATE()函数
 
 STR_TO_DATE(str,format)函数是将时间格式的字符串（str），按照所提供的显示格式（format）转换为DATETIME类型的值。
