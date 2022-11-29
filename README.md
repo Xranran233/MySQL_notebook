@@ -40,7 +40,9 @@ DATE_FORMAT(date,format) 函数用于将指定的日期格式化为给定的格�
 
 STR_TO_DATE(str,format)函数是将时间格式的字符串（str），按照所提供的显示格式（format）转换为DATETIME类型的值。
 ```
-SELECT STR_TO_DATE('30Apr19','%d%b%y') #2019-04-30
+SELECT STR_TO_DATE('30Apr19','%d%b%y')      #2019-04-30
+SELECT STR_TO_DATE('21,5,2022','%d,%m,%Y');    #2022-05021
+SELECT STR_TO_DATE("2022,6,14 10,40,10", "%Y,%m,%d %h,%i,%s")      #2022-06-14  10:40:10
 ```
 
 ## 一. 排序函数
